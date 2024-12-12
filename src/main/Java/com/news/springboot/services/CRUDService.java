@@ -5,7 +5,7 @@ import java.util.List;
 public interface CRUDService<T> {
     T getById(Integer id);
 
-    List<T> getAll();
+    List<String> getAll();
 
     void create(T item);
 
